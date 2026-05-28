@@ -12,7 +12,7 @@ export default async (req) => {
         }
 
         const token = '8978245968:AAHn0h3eqSMqfz9tu9Err49Yv2MGs7zW1DU';
-        const chatId = '-5167223511';
+        const chatId = '-1003895343561';
 
         if (!token || !chatId) {
             return new Response('Configuration missing', { status: 500 });
